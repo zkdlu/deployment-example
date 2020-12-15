@@ -14,11 +14,12 @@
 ### 3. Canary-deployment
 - 카나리아??
 
-### [nginx](https://github.com/zkdlu/deployment-example/blob/main/nginx/%EB%AC%B4%EC%A4%91%EB%8B%A8%EB%B0%B0%ED%8F%AC.md)
+## 무중단 배포 연습
+### [1.nginx](https://github.com/zkdlu/deployment-example/blob/main/nginx/%EB%AC%B4%EC%A4%91%EB%8B%A8%EB%B0%B0%ED%8F%AC.md)
 
-### kubernetes
+### 2.kubernetes
 
-### zuul
+### 3.zuul
 - config server로 reload하는 듯 (팩트 체크 필요) (나중 참고용: https://elfinlas.github.io/2019/06/25/spring-config-refresh/)
 
 # 배포 자동화
