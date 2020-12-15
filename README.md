@@ -15,3 +15,7 @@
 
 ## nginx? kubernetes? zuul?
 > 무중단 배포의 핵심은 로드밸런싱이 되어야 하고, 라우팅 정보를 reload가 되어야 함
+
+- nginx: 라우팅 수정하고 reload
+- kubernetes: ?
+- zuul: config server로 reload하는 듯 (팩트 체크 필요)
