@@ -21,3 +21,4 @@
 - zuul: config server로 reload하는 듯 (팩트 체크 필요) (나중 참고용: https://elfinlas.github.io/2019/06/25/spring-config-refresh/)
 
 # 배포 자동화
+Github push/pull-request -> build -> docker build -> docker push -> code deploy -> docker pull -> docker run
