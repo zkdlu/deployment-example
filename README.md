@@ -13,4 +13,4 @@
 ## 3. Canary-deployment
 - 카나리아??
 
-## nginx? kubernetes? ribbon?
+## nginx? kubernetes? zuul?
