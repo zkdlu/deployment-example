@@ -15,7 +15,7 @@
 - 카나리아??
 
 ## 무중단 배포 연습
-### [1.nginx](https://github.com/zkdlu/deployment-example/blob/main/nginx/%EB%AC%B4%EC%A4%91%EB%8B%A8%EB%B0%B0%ED%8F%AC.md)
+### 1.[nginx](https://github.com/zkdlu/deployment-example/blob/main/nginx/%EB%AC%B4%EC%A4%91%EB%8B%A8%EB%B0%B0%ED%8F%AC.md)
 
 ### 2.kubernetes
 
