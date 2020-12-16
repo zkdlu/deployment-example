@@ -1,0 +1,21 @@
+version: '3'
+services:
+  proxy:
+    image: nginx:latest
+    container_name: nginx_container
+    ports: 
+      - "80:80"
+    volumes:
+      - ./nginx/nginx.conf:/etc/nginx/nginx.conf
+  web_1:
+    build:
+      context: ./app
+    container_name: web_1
+    expose:
+      - "8080"
+  web_2:
+    build:
+      context: ./app
+    container_name: web_2
+    expose:
+      - "8080"
