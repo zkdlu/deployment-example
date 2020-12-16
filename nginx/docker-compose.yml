@@ -19,3 +19,15 @@ services:
     container_name: web_2
     expose:
       - "8080"
+  web_3:
+    build:
+      context: ./app
+    container_name: web_3
+    expose:
+      - "8080"
+  web_4:
+    build:
+      context: ./app
+    container_name: web_4
+    expose:
+      - "8080"
