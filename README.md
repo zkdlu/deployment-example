@@ -29,12 +29,14 @@
 1. 코드를 수정하고 push/pull-reauqest
 2. push가 된 걸 감지 하면 CI툴 (github-action / jenkins .. )에서 감지 하여 빌드 및 테스트 진행한다.
 3. 이상없이 완료가 되면 실행중인 서버 (AWS EC2)에서 github에서 해당 프로젝트를 가져오도록 한다. 
+- 빌드 결과를 AWS S3로 전달 하고 CodeDeploy를 실행하면 EC2로 가져감
     > EC2에서 push가 된 것을 어떻게 알아낼 것인가?
     >
     > 1. CI 툴에서 빌드 단계 이후 scp로 자체 복사 한다. -> 복사하는 것은 좋다. 어떻게 그 다음 단계를 진행 할 것인가? -> ssh 접속하여 sh 스크립트 실행?
     > 
-    > 2. 다른 솔루션이 있는가? 아마도 AWS Code Deploy -> 확인 필요
+    > 2. 다른 솔루션이 있는가? 아마도 AWS Code Deploy -> 확인 필요  
 4. 프로젝트를 빌드 후 구동시킨다.
+- CodeDeploy가 스크립트 실행 함.
     > sh 스크립트로 자동화 완료
 5. gateway는 routing 정보를 수정한 후 reload 한다.
     > 설정 파일은 어떻게 업데이트를 할 것인가? -> 확인 필요
