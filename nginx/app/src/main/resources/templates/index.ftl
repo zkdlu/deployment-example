@@ -5,7 +5,7 @@
     <title>welcome</title>
 </head>
 <body>
-<h1>Sample page</h1>
+<h1>Updated page</h1>
 <h2>${message}</h2>
 </body>
 </html>
