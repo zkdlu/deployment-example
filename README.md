@@ -17,7 +17,7 @@
 ## 무중단 배포 연습
 ### 1.[nginx](https://github.com/zkdlu/deployment-example/blob/main/nginx/%EB%AC%B4%EC%A4%91%EB%8B%A8%EB%B0%B0%ED%8F%AC.md)
 
-### 2.kubernetes
+### 2.[kubernetes](https://github.com/zkdlu/deployment-example/blob/main/kubernetes/%EB%AC%B4%EC%A4%91%EB%8B%A8%EB%B0%B0%ED%8F%AC.md)
 
 ### 3.zuul
 - config server로 reload하는 듯 (팩트 체크 필요) (나중 참고용: https://elfinlas.github.io/2019/06/25/spring-config-refresh/)
@@ -37,6 +37,8 @@
     > 2. 다른 솔루션이 있는가? 아마도 AWS Code Deploy -> 확인 필요  
 4. 프로젝트를 빌드 후 구동시킨다.
 - CodeDeploy가 스크립트 실행 함.
+  
     > sh 스크립트로 자동화 완료
 5. gateway는 routing 정보를 수정한 후 reload 한다.
+   
     > 설정 파일은 어떻게 업데이트를 할 것인가? -> 확인 필요
