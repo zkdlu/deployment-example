@@ -37,7 +37,8 @@
     > 2. 다른 솔루션이 있는가? 아마도 AWS Code Deploy -> 확인 필요  
 4. 프로젝트를 빌드 후 구동시킨다.
 - CodeDeploy가 스크립트 실행 함.
-  
+    > appspec.yml 이란것을 알아보자
+    >
     > sh 스크립트로 자동화 완료
 5. gateway는 routing 정보를 수정한 후 reload 한다.
    
